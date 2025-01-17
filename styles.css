@@ -9,7 +9,7 @@ body {
   text-align: center;
 }
 
-button {
+.btn {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #007bff;
@@ -19,6 +19,23 @@ button {
   border-radius: 10px;
 }
 
-button:hover {
+.btn:hover {
   background-color: #0056b3;
+}
+
+.author {
+  display: block;
+  margin-top: 10px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+}
+.quote::before,
+.quote::after {
+  content: '"';
 }

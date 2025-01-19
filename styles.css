@@ -39,6 +39,7 @@ body {
 .author {
   font-weight: bold;
 }
+
 .quote::before,
 .quote::after {
   content: '"';
@@ -57,4 +58,11 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 250px;
+}
+
+.star-icon {
+  font-size: 30px;
+  color: yellow;
+  vertical-align: middle;
+  cursor: pointer;
 }

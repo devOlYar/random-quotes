@@ -5,6 +5,10 @@ import {
   hideFavoriteCard,
 } from './src/favoritesHandler.js';
 import { generateRandomInt } from './src/utils.js';
+<<<<<<< HEAD
+=======
+import moduleName from 'module';
+>>>>>>> 04a8946ec5a9bbcd274b429c9c27b1ced464dcc7
 
 const quoteElement = document.getElementById('quote');
 const quoteAthorElement = document.getElementById('quote-author');
